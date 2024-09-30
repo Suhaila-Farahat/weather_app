@@ -1,8 +1,9 @@
 import 'package:weather_app/Models/Weather%20model.dart';
+// create abstract class
+class WeatherState {}
 
-class WeatherState {} // create abstract class
-
-class NoWeatherState extends WeatherState {} // create initial state from abstract class
+// create initial state from abstract class
+class NoWeatherState extends WeatherState {}
 
 // create class for each state
 class WeatherInfoLoadedState extends WeatherState {
